@@ -20,7 +20,3 @@ puts "Does the list contain 'a'?: #{list.contains?('a')}."
 puts "Does the list contain '2z'?: #{list.contains?('2z')}."
 puts "'2' is at the index of #{list.find('2'.to_i)}."
 puts list.to_s
-list.insert_at('z', 1)
-list.insert_at('20', 10)
-list.insert_at('x', 6)
-puts list.to_s
